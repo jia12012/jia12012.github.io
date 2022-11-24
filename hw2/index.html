@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<style type="text/css">
+
+body{background-color: lightblue;}
+
+#myHeader{
+	color: maroon;
+	margin-left: 40px;
+	text-align: center;
+}	
+
+.class{
+	color:blue;
+}
+
+span{
+	color:green;
+}
+
+.extra span{
+	color:inherit;
+}
+
+h1, em{text-decoration: underline;}
+p em{text-decoration: line-through;}
+
+</style>
+
+</head>
+<body>
+
+	<h1 id="myHeader">New HTML5 Input Types Demo</h1>
+	<h3><em>This form demonstrates the new HTML5 input types and the placeholder, required and autofocus attibutes.</em></h3>
+
+	<form>
+		<p class="class"><label>Color:
+			<input type ="color" autofocus />
+			Hexadecimal code such as #ADD8E6</label></p>
+
+		<p class="class" style="color:purple">Date:<input type="date"><span>(yyyy-mm-dd)</span></p>
+
+		<p>Email:
+			<input type="email" name="email" placeholder="name@domain.com"required>
+			(name@domain.com)</p>
+
+		<p><span>Number:</span>
+		<label for="quantity"Quantity(between 0 and 7):></label>
+		<input type="number" name="quantity" min="0" max="7" value="4" >
+		(Enter a number between 0 and 7)</p>
+
+		<p style="color:orangered";><label for="Range">Range:<span>0</span></label>
+			<input type="Range" id="Range" name="Range" min="0" max="20"><span>20</span></p>
+
+		<p><label for="gsearch"><em>Search:</em> </label>
+		<input type="text" name="search query" placeholder="search query"></p>
+
+		<p><label for="appt">Time: </label>
+		<input type="time" name="appt">(hh:mm)</p>
+
+		<input type="submit" name="submit">
+		<input type="reset" names="clear">
+
+
+	</form>
+
+
+	<a href="https://jia12012.github.io/hw2/secondpage">second page</a><br>
+	<a href="https://jia12012.github.io/hw2/thirdpage">third page</a>
+	
+</body>
+</html>

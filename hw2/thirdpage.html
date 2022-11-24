@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homework</title>
+
+
+<style type="text/css">
+
+	#myHeader{
+	color: maroon;
+	margin-left: 40px;
+	text-align: center;
+	}	
+
+	.class{
+	color:blue;
+	}
+
+	span{
+	color:green;
+	}
+
+	.extra span{
+	color:inherit;
+	}
+
+	h1, em{text-decoration: underline;}
+	p em{text-decoration: line-through;}
+	
+
+</style>
+
+
+
+</head>
+<body>
+
+	<h1 id="myHeader">Feedback Form</h1>
+	<em>Please fill out this form to help us improve our site.</em>
+
+	<form method ="post" action ="htttps://www.detail.com">
+		
+		<p><label class="class">Name:
+			<input name ="name" type ="text" size ="25"
+				maxlength="30">
+			</label></p>
+
+
+		<p class="class">Comments:<br><textarea rows="4" cols="50">Enter comments here.
+			</textarea>
+
+		<p><label>E-mail <span>Address:</span>
+			<input name ="E-mail" type ="text" size ="25"
+				maxlength="30">
+			</label></p>
+
+		<p class="extra" style="color:mediumpurple;"><b>Things you liked:</b><br>
+			<span>Site design</span><input type="checkbox" name="you liked" value="Site Design">
+			Links<input type="checkbox" name="you liked" value="Links">
+			Ease of use<input type="checkbox" name="you liked" value="Ease of use">
+			Images<input type="checkbox" name="you liked" value="Images">
+			Source code<input type="checkbox" name="you liked" value="Source code">
+		</p>
+
+		<p style="color:red"><b><span>How did you get to our site:</span></b><br>
+			Search engine<input type="radio" name="how to get" value="Search engine" checked>
+			Links from another site<input type="radio" name="how to get" value="Links from another sites">
+			Detail.com Web site<input type="radio" name="how to get" value="Detail.com">
+			Reference in a book<input type="radio" name="how to get" value="book">
+			Other<input type="radio" name="how to get" value="other">
+		</p>
+
+		<p><em>Rate our site:</em>
+		<select name="rate">
+			<option value="amazing">Amazing</option>
+			<option value="good">Good</option>
+			<option value="normal">Normal</option>
+			<option value="bad">Bad</option>
+
+		</select>
+		</p>
+		
+		<p>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Clear">
+		</p>
+	</form>
+
+
+
+</body>
+</html>
