@@ -1,0 +1,31 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar {
+  display: none;
+}
+
+.dropdown:hover .navbar {
+  display: block;
+}
+
+body    {font-family: arial, sans-serif;
+        background-color: lightyellow;
+        padding: 12px;
+        color: mediumpurple;
+        }
+
+nav ul  {width: 10em;
+        position: absolute;
+        top:3px ;
+        left: 10px}
+
+nav ul li    {margin: 0;
+             background-color: white;
+             padding: 12px;
+             border-right:1px ;}
+
+
+nav ul li:hover {background-color: PowderBlue; }
