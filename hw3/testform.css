@@ -1,0 +1,48 @@
+body    {font-family: arial;
+        background-color: lightyellow;
+        color: mediumpurple;
+        }
+
+textarea {
+  resize: none;
+}
+
+.form-control::placeholder {color: #ccc;}
+
+.input1 {
+    width: 400%;
+    }
+
+.input2 {
+    width: 150%;
+    }
+
+.input3 {
+    width: 30%;
+    }
+
+
+
+.input4 {
+    width: 300%;
+    }
+
+.Data-Content {
+        width: 70%; /* 表單寬度 */
+        line-height: 200%;
+    }
+
+    .Data-Title {
+        float: left;
+        width: 25%; /* Label寬度，視情況調整 */
+        margin-right: 5%;
+    }
+
+    .Data-Items {
+        float: left;
+        width: 20%;
+    }
+
+    .AlignRight {
+        text-align: right;
+    }
